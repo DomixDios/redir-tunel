@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #4a5cff !important;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #4a5cff;
+    border-color: #4a5cff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #3d4de3;
+    border-color: #3d4de3;
+}
+
+/* Sección Héroe */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1500x800') no-repeat center center/cover;
+    height: calc(100vh - 76px); /* 100vh menos la altura del navbar */
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+}
+
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+}
